@@ -1,0 +1,14 @@
+/* Order Start */
+.order__link {
+  width: 100%;
+}
+
+.order__figure {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.order__img {
+  height: 200px;
+}
+/* Order End */

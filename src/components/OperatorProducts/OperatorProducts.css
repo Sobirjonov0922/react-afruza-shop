@@ -1,0 +1,28 @@
+/* Operator Product Start */
+.operatorProduct__card:hover {
+  box-shadow: 0 0 4px 6px rgba(0, 0, 0, 0.05) !important;
+  transform: unset !important;
+}
+
+.operatorProduct__card__header {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.operatorProduct__show--btn {
+  border: 2px outset var(--secondary-color);
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 8px 0;
+  width: 100%;
+  color: #fff;
+  background: var(--secondary-color);
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+.operatorProduct__show--btn:active {
+  border: 2px inset var(--secondary-color);
+}
+/* Operator Product End */
