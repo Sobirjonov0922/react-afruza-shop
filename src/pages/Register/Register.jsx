@@ -35,7 +35,6 @@ export default function Register() {
   }
 
   const navigate = useNavigate()
-  const [isSignUp, setIsSignUp] = useState(false)
   const { setUser, loading, setLoading } = useInfoContext()
   const [confirmPass, setConfirmPass] = useState(true)
   const [data, setData] = useState(initialState)

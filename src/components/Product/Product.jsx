@@ -8,7 +8,7 @@ import { useInfoContext } from '../../context/InfoContext'
 import "./Product.css"
 
 export default function Product() {
-  const { user, products, loading, setLoading } = useInfoContext()
+  const { user, products, setLoading } = useInfoContext()
   const params = useParams()
   const navigate = useNavigate()
 

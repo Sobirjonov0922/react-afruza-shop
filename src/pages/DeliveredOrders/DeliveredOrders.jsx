@@ -7,7 +7,7 @@ import { useInfoContext } from '../../context/InfoContext';
 import "./DeliveredOrders.css"
 
 export default function DeliveredOrders() {
-  const { user, delivered, loading, setLoading, productLoading, setProductLoading } = useInfoContext()
+  const { delivered, loading, setLoading, productLoading, setProductLoading } = useInfoContext()
 
   const showToastError = () => {
     toast.error('"Sahifani yangilang!', {

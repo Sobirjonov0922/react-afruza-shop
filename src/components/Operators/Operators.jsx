@@ -10,7 +10,7 @@ import { useInfoContext } from '../../context/InfoContext'
 import "./Operators.css"
 
 export default function Operators() {
-  const { operators, setOperators, setLoading, productLoading, setProductLoading } = useInfoContext()
+  const { operators, setLoading, productLoading, setProductLoading } = useInfoContext()
 
   const showToastError = () => {
     toast.error('"Sahifani yangilang!', {

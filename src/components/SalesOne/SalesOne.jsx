@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
 
 import { addArchive } from '../../api/salesHistory'
@@ -8,9 +8,8 @@ import { useInfoContext } from '../../context/InfoContext'
 import "./SalesOne.css"
 
 export default function SalesOne() {
-  const { user, order, loading, setLoading } = useInfoContext()
+  const { user, order, setLoading } = useInfoContext()
   const params = useParams()
-  const navigate = useNavigate()
 
   const orderIdRef = useRef()
 

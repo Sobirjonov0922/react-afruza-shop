@@ -94,7 +94,7 @@ export default function Products() {
         <div className="container">
 
           {
-            user?.role === "operator" || user?.role === "admin" && (
+            (user?.role === "operator" || user?.role === "admin") && (
               <>
                 <h2 className="products__title title">bu yerdan mahsulotlarni qo'shasiz</h2>
 

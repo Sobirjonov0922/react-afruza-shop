@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from 'react'
 import { toast, ToastContainer } from 'react-toastify'
 
 import { deleteSalesHistory, updateSalesHistory } from '../../api/salesHistory'
@@ -8,7 +7,6 @@ import "./AcceptedOrders.css"
 
 export default function AcceptedOrders() {
   const { user, orders, loading, setLoading, productLoading, setProductLoading } = useInfoContext()
-  const navigate = useNavigate()
 
   const showToastError = () => {
     toast.error('"Sahifani yangilang!', {

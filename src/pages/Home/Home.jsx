@@ -72,7 +72,7 @@ export default function Home() {
 
   const params = useParams()
 
-  const { user, setLoading, productLoading, setProductLoading, products } = useInfoContext()
+  const { user, products } = useInfoContext()
   const [image, setImage] = useState(null)
 
   const nameRef = useRef()

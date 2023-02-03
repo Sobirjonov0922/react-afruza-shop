@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
 
-import { deleteProducts } from '../../api/productRequest'
+// import { deleteProducts } from '../../api/productRequest'
 import { deleteSalesHistory } from '../../api/salesHistory'
 import { useInfoContext } from '../../context/InfoContext'
 
 import "./OperatorProducts.css"
 
 export default function OperatorProducts() {
-  const { serverPublic, user, products, setProductLoading, productLoading, loading, setLoading } = useInfoContext()
+  const { serverPublic, user, setProductLoading, productLoading, loading, setLoading } = useInfoContext()
   // const params = useParams()
   const { operatorId } = useParams()
 

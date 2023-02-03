@@ -61,7 +61,7 @@ function Navbar() {
             <ul className="nav__contacts dis-flex">
 
               <li className="nav__item">
-                <a href="#" className="nav__contact"><FontAwesomeIcon icon={faPhoneFlip} className="nav__icon" /></a>
+                <a href="tel:998909704024" className="nav__contact"><FontAwesomeIcon icon={faPhoneFlip} className="nav__icon" /></a>
               </li>
 
               {

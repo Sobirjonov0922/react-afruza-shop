@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
 import { deleteProducts } from "../../api/productRequest";
 import { useInfoContext } from "../../context/InfoContext";
@@ -88,7 +88,7 @@ function Card({ data }) {
               <h3 className="operator__name">
                 <span className="operator__span">Mahsulot Egasi</span> {data?.operatorId?.firstname}
               </h3>
-              <p className="operator__phone">+998{data?.operatorId?.phone}</p>
+              <p className="operator__phone">{data?.operatorId?.phone}</p>
             </div>
           )
         }
