@@ -116,15 +116,15 @@ export default function Home() {
         <div className="container">
           <Slider {...settings}>
             <div className="slider__content">
-              <img src={Fridge} alt="" className="slider__img" />
+              <img src={Fridge} alt="item" className="slider__img" />
             </div>
 
             <div className="slider__content">
-              <img src={makeUp} alt="" className="slider__img" />
+              <img src={makeUp} alt="item" className="slider__img" />
             </div>
 
             <div className="slider__content">
-              <img src={Gaz} alt="" className="slider__img" />
+              <img src={Gaz} alt="item" className="slider__img" />
             </div>
           </Slider>
         </div>
@@ -177,7 +177,7 @@ export default function Home() {
           <div className="about__content">
 
             <div className="about__image">
-              <img src={Gaz} alt="" className="about__img" />
+              <img src={Gaz} alt="item" className="about__img" />
             </div>
 
             <div className="about__desc">

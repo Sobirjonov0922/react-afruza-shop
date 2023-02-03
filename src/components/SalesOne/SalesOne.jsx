@@ -49,7 +49,7 @@ export default function SalesOne() {
                 return (
                   <div className='salesOne__card card' key={id}>
                     <div className="salesOne__card__header card__header">
-                      <img className="orderImage" src={orderOne?.productId?.image?.url} alt="product" />
+                      <img className="orderImage" src={orderOne?.productId?.image?.url} alt="item" />
                     </div>
                     <div className="salesOne__card__body card__body">
                       <p>Mahsulot nomi: <span className="bold-span">{orderOne?.productId?.name}</span></p>

@@ -19,19 +19,23 @@ export default function Product() {
   const addOrder = async (e) => {
     e.preventDefault()
     try {
-      setLoading(true)
-      const data = new FormData()
-      data.append("productId", params.id)
-      data.append("userId", user._id)
-      data.append("count", countRef.current.value)
-      data.append("city", cityRef.current.value)
-      data.append("district", districtRef.current.value)
+      if (user) {
+        setLoading(true)
+        const data = new FormData()
+        data.append("productId", params.id)
+        data.append("userId", user._id)
+        data.append("count", countRef.current.value)
+        data.append("city", cityRef.current.value)
+        data.append("district", districtRef.current.value)
 
-      const res = await addOrderProduct(data)
-      localStorage.setItem('Order Product', JSON.stringify(res.data.newOrder))
-      toast.success(res.data.message)
-      resetShare()
-      setLoading(false)
+        const res = await addOrderProduct(data)
+        localStorage.setItem('Order Product', JSON.stringify(res.data.newOrder))
+        toast.success(res.data.message)
+        resetShare()
+        setLoading(false)
+      } else {
+        navigate("/register")
+      }
     } catch (error) {
       setLoading(false)
       toast.error(error);
