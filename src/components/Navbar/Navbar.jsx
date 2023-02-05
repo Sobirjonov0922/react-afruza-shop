@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <div className="nav">
       <div className="container nav__container dis-flex">
-        <Link to="/" className="nav__logo">Afruza-Shop</Link>
+        <Link to="/" className="nav__logo">A-Shop.Uz</Link>
         <nav className="navbar" ref={navRef}>
           <div className="nav__menu dis-flex">
             <ul className="nav__list dis-flex">

@@ -76,7 +76,7 @@ export default function AcceptedOrders() {
                             <div className="acceptedOrders__card--desc">
                               <p>Mahsulot nomi: <span className="bold-span"></span></p>
                               <p>Miqdori: <span className="bold-span">{order?.count}</span>ta</p>
-                              <p>Umumiy narxi: <span className="bold-span">{order?.price * order?.count}</span> so'm</p>
+                              <p>Umumiy narxi: <span className="bold-span">{order?.price}</span> so'm</p>
                               <p>Shahri: <span className="bold-span">{order?.city}</span></p>
                               <p>Tumani: <span className="bold-span">{order?.district}</span></p>
                             </div>
@@ -99,7 +99,7 @@ export default function AcceptedOrders() {
                     </div>
                     <div className="acceptedOrders__card__footer card__footer">
                       {
-                        user?.role === "admin" && // adminda turbdi agar operator bosez admin qisez korasiz
+                        user?.role === "admin" &&
                         <>
                           <div className="acceptedOrders__card--form">
                             <label htmlFor="ordersDelivered" className='acceptedOrders__card--label'>

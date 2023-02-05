@@ -50,7 +50,7 @@ export default function DeliveredOrders() {
                       <p>{delivery?.orderId?.city}</p>
                       <p>{delivery?.orderId?.district} ga</p>
                       <p><span>{delivery?.orderId?.count}</span>ta yetkazib berildi</p>
-                      <p>Umumiy narxi: <span>{delivery?.orderId?.price * delivery?.orderId?.count}</span> so'm</p>
+                      <p>Umumiy narxi: <span>{delivery?.orderId?.price}</span> so'm</p>
                       <p>Operatorning ismi va familiyasi: <span className="bold-span">{delivery?.operatorId?.firstname} {delivery?.operatorId?.lastname}</span></p>
                       <p>Operatorning e-maili: <span className="bold-span">{delivery?.operatorId?.email}</span></p>
                       <p>Operatorning telefon raqami: <span className="bold-span">{delivery?.operatorId?.phone}</span></p>

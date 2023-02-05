@@ -191,7 +191,7 @@ export default function Admin() {
                     </button>
                   </label>
 
-                  <h4>Rolingizni tanlang:</h4>
+                  <h4>Foydalanuvchining rolini tanlang:</h4>
 
                   <label htmlFor="user" className="tabs__label">
                     user
@@ -219,7 +219,7 @@ export default function Admin() {
                   </label>
 
                   <button type="submit" className="tabs__btn" disabled={loading}>
-                    {loading ? "Kuting..." : "Ro'yxatdan O'tish"}
+                    {loading ? "Kuting..." : "Ro'yxatdan O'tkazish"}
                   </button>
 
                 </form>

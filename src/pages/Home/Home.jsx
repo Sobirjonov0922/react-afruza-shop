@@ -183,7 +183,7 @@ export default function Home() {
             <div className="about__desc">
               <h2 className="about__title title">Saytimiz haqida</h2>
 
-              <p className="about__txt">Assalomu aleykum! Bizning <span className="bold-span">Afruza-Shop</span> saytimizda siz mahsulotlarni uyda o'tirib onlayn buyurtma berishingiz mumkin. O'zingizga yoqqan mahsulotni tanlab, shahar va manzilingizni kiritishingiz kerak. Manzilingizni kiritganingizdan so'ng siz bilan biznig operatorlarimizdan biri bog'lanib, sizga mahsulotni jo'natib yuboradi va siz mahsulotni qabul qilib olishingiz mumkin. Agar qandaydir savollaringiz bo'lsa sayt admini bilan bog'lanishingiz mumkin. Sizlarga yaxshi xaridlarni tilab qolamiz{")"}</p>
+              <p className="about__txt">Assalomu aleykum! Bizning <span className="bold-span">A-Shop.Uz</span> saytimizda siz mahsulotlarni uyda o'tirib onlayn buyurtma berishingiz mumkin. O'zingizga yoqqan mahsulotni tanlab, shahar va manzilingizni kiritishingiz kerak. Manzilingizni kiritganingizdan so'ng siz bilan biznig operatorlarimizdan biri bog'lanib, sizga mahsulotni jo'natib yuboradi va siz mahsulotni qabul qilib olishingiz mumkin. Agar qandaydir savollaringiz bo'lsa sayt admini bilan bog'lanishingiz mumkin. Sizlarga yaxshi xaridlarni tilab qolamiz{")"}</p>
             </div>
 
           </div>

@@ -154,14 +154,23 @@ export default function Products() {
                       <label htmlFor="productDesc" className="add__label">
                         Mahsulot Haqida Ma'lumot!
 
-                        <input
+                        <textarea
+                          required
+                          name="desc"
+                          id="productDesc"
+                          cols="30"
+                          rows="8"
+                          className='add__textarea'
+                          ref={descRef}
+                        ></textarea>
+                        {/* <input
                           required
                           type="text"
                           name="desc"
                           id="productDesc"
                           className='add__input'
                           ref={descRef}
-                        />
+                        /> */}
                       </label>
 
                       <button form="addProductsForm" disabled={loading} className={loading ? 'disabled' : "add__btn"}>
